@@ -1,0 +1,278 @@
+.container-content{
+    width: 100%;
+}
+.container{
+    background-color: #E7EAEE;
+    width: 100%;
+}
+.containerNav{
+    background-color: #E7EAEE;
+    position: relative;
+    width: 100%;
+}
+.invoicevalue{
+    padding: 2em;
+    font-size: 3rem;
+}
+.logo{
+    display :flex;
+    justify-content: space-between;
+}
+.fillContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.bill{
+    display: flex;
+    gap: 1em;
+}
+.bill p{
+  color:  rgb(39, 39, 56);
+}
+.rate{
+    display: flex;
+    margin: .3em 0 ;
+    padding: .3em 0;
+    justify-content: space-between; 
+    background-color: rgb(39, 39, 56);
+}
+.rateItems{
+    display: flex;
+    gap: 9em;
+    justify-content: space-between;
+}
+.rateQuantity{
+    display: flex;
+    gap: 5em;
+    justify-content: space-between;
+}
+.itemDes{
+    display: flex;
+    justify-content: space-between;
+}
+.itemAmount{
+    display: flex;
+    gap: 9em;
+    justify-content: space-between;
+}
+.itemQuantity{
+    display: flex;
+    outline: none;
+    gap: 5em;
+    justify-content: space-between;
+}
+.outline{
+    outline: none;
+}
+.container{
+    display: flex;
+ flex-direction: row; 
+ gap: 3em; 
+ 
+}
+.logocontent{
+    background-color: white;
+    border: 2px solid #879099;
+    margin: 0 1em 0 6em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 3em;
+    /* width: 60%; */
+}
+.addlogo{
+    padding: 4em 3em;
+
+}
+
+/*  */
+.invoice label{
+
+    border: transparent;
+background-color: #879099;
+padding:.3em .8em;
+color: white;
+}
+.invoice input{
+    border: transparent;
+    padding: .1em .7em;
+    text-align: end;
+    outline: none;
+
+
+}
+.invoicetext{
+    border-radius: 2px;
+    text-align: end;
+    margin-bottom: .4em;
+    
+
+}
+.invoicetext label{
+    border: 1px solid #879099;
+    padding: .6em .8em .8em .8em;
+    color: white;
+    border-radius: 2px 0;
+    text-align: center;
+    background-color: rgb(216, 216, 230);
+
+}
+.invoicetext input{
+    border: 1px solid green;
+    padding: .9em .6em;
+    border-radius: 2px;
+
+}
+.fillrequire{
+    color: lightslategrey;
+    border: 1px solid #879099;
+    border-radius: 2px;
+    padding: 1.5em .9em;
+    outline: none;
+    margin:2em 0 ;
+}
+.shipBill{
+    color: lightslategrey;
+    border: 1px solid #879099;
+padding:1.4em .5em ;
+border-radius: 3px;
+margin-bottom: 2em;
+outline: none;
+}
+
+.detailslabel{
+    color: lightslategrey;
+    border: none;
+    text-align: end;
+    margin-bottom:.3em ;
+    padding: 1em .5em;
+    
+}
+.detailslabel :hover{
+    border: block;
+}
+.termsofpayment{
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #879099;
+    padding: 1em .5em;
+    margin-bottom:.3em ;
+color: lightslategrey;
+}
+
+/*  */
+
+.rateInput{
+    border: transparent;
+    background-color: none;
+    background-color: rgb(20, 20, 36);
+    color: white;
+outline: none;
+
+
+}
+.lineItem{
+    color: white;
+    border: 1px solid teal ;
+    background-color: teal;
+    border-radius: 4px;
+    padding: .7em .1em;
+}
+
+/*  */
+.terms{
+    display: flex;
+    justify-content: space-between;
+}
+.terms p{
+    color: rgb(39, 39, 56);
+}
+.termsInput{
+    color: lightslategrey;
+    outline: none ;
+    padding: 1em 3em;
+    border-radius: 3px;
+    border: 1px solid #879099;
+
+}
+/*  */
+.priceTotals{
+    display: flex;
+    justify-content: space-between;
+}
+.Transportation{
+    display: flex;
+    gap: 3em;
+    justify-content:flex-end;
+    color: green;
+}
+
+.TaxInput{
+    border: none;
+    text-align: end;
+}
+.TaxPercentage{
+    color: lightslategrey;
+    overflow: hidden;
+    padding: .2em .2em;
+    border-radius: 3px;
+    border: 1px solid lightsteelblue;
+
+}
+.dollars{
+    display: flex;
+    justify-content: space-between;
+}
+.dollarRate{
+    color: lightslategrey;
+    border: transparent;
+    text-align: end;
+    margin-bottom: 1em;
+}
+.dollarInput{
+    color: lightslategrey;
+    padding: .3em 1em;
+}
+
+/* DOWNLOAD */
+.download h2{
+    color: teal;
+    margin: 1em 0;
+}
+.download{
+    margin-top: 2em;
+    width: 100%;
+}
+.downloadspan{
+    color: black;
+    font-weight: 900;
+}
+.send{
+    border-radius: 3px;
+    background-color: #E7EAEE;
+    border: .2px solid lightslategrey;
+    padding: 1em 2em;
+    overflow: hidden;
+}
+.inputInvoice{
+    background-color: teal;
+    border-radius: 4px;
+    border: 1px solid green;
+    padding: 1em 2em;
+    color: white;
+    overflow: hidden;
+    /* width: 100%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

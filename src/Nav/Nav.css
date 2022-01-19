@@ -1,0 +1,23 @@
+.navContainer{
+    background-color: rgb(31, 31, 43);
+    /* margin-bottom: 2em; */
+    margin-right: 1em;
+}
+.navContainer button{
+padding: .4em .9em;
+border: none;
+background-color: green;
+color: white;
+    border-radius: 20%;
+}
+.navContent{
+    display: flex;
+    margin-left: 10em;
+    gap: 9em;
+    color: white;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
